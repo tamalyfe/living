@@ -156,7 +156,7 @@ as for the routes that can be used for testing it on postman is
 ```bash
 /search 
 ```
-for POST with a body (example)
+for POST with a body ( for example)
 ```bash
 {
   "location": "Babelan",
