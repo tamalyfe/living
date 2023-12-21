@@ -24,4 +24,4 @@ The project scope of the Living application encompasses the development of marke
 | Aura Choirun Nisa      | C296BSX3722      | https://github.com/Auraachn  | Setting up and managing CLoud MySQL, Setting up and managing Cloud Storage Bucket, Build and develop API for Mobile Dev, Setting up API for mobile app deployment to GCP using App Engine, Create a simple dashboard in logging to for monitoring service availability  |
 | Ivana Olivera      | M006BSX1706       | https://github.com/ivanaolv  | Collect data, cleaning data, find several models to references, building model |
 | Anisa Andri Yani Br Sinaga     | M008BSX0048      |  -  | - |
-| Bayu Bintoro     | M536BSY1376      |  -  | - |
+| Bayu Bintoro     | M536BSY1376      |   https://github.com/Bytro007  | Collect data, Prepare data, research suitable algorithm model |
