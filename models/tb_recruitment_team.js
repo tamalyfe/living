@@ -78,7 +78,7 @@ const UpdateRecruitment = (body, identifier_recruitment_team) => {
 }
 
 const DeleteRecruitment = (identifier_recruitment_team) => {
-  const SQLQuery = `DELETE FROM tb_recruitment_teams identifier_recruitment_team = '${identifier_recruitment_team}'`;
+  const SQLQuery = `DELETE FROM tb_recruitment_teams WHERE identifier_recruitment_team = '${identifier_recruitment_team}'`;
   return dbpool.execute(SQLQuery);
 }
 
