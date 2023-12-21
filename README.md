@@ -1,6 +1,6 @@
 # Living
-)
-)
+
+![image](https://github.com/tamalyfe/living/assets/120537279/bef5cd5e-f710-4fa4-8e70-e034495deb7f)
 
 The project scope of the Living application encompasses the development of marketing that facilitates team  of an agency in enhancing their productivity, efficiency, and well-being on marketing that aims to increase sales of a product, and in our case that product is Property. Some features provided by the Living application to achieve these goals include:
 * Our Features:
