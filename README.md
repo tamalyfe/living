@@ -10,6 +10,8 @@ The project scope of the Living application encompasses the development of marke
     * Matching and filtering projects according to what costumer requested
 
 # App Demo
+The App demo video can be accessed here :
+https://drive.google.com/file/d/1yvZV3ruq5RfySNVOgLUonF_RCv8LUvgT/view?usp=sharing
 
 # Projects Documents
 
