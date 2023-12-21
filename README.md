@@ -1,7 +1,7 @@
 # Living API || Capstone Bangkit 2023 Batch 2
 
 As for the main API for MD we build a RESTFUL API using Node.js and Express as the framework, whil for Machine Learning model was build using Flask. Both API is able to integrate with cloud MySQL that already deployed.
-
+<br><br>
 ## Getting Started for API (MD)
 
 to start running this API locally, first
@@ -128,9 +128,7 @@ there are
 
 (for UPDATE/PATCH requests, the body can be filled with any data that want to be updated)
 
-
-
-
+<br><br>
 ## Getting Started for API (ML)
 
 to start running this API locally, first after you clone the API MD just go into the folders, or if you just want to clone the ML API do this 
