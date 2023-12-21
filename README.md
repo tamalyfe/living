@@ -8,7 +8,7 @@ to start running this API locally, first
 create a database named living then import the database included in the database tab, make sure all tables and data is ready.
 then,
 ```bash
-git clone 
+git clone -b Cloud_Computing https://github.com/tamalyfe/living.git 
 ```
 go into the folder after that run
 ```bash
@@ -133,9 +133,9 @@ there are
 
 ## Getting Started for API (ML)
 
-to start running this API locally, first
+to start running this API locally, first after you clone the API MD just go into the folders, or if you just want to clone the ML API do this 
 ```bash
-git clone 
+git clone https://github.com/Auraachn/Machine_learning.git
 ```
 go into the folder after that run
 ```bash
