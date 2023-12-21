@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/filter_babelan"
+        android:title="Babelan" />
+    <item
+        android:id="@+id/filter_tambun_utara"
+        android:title="Tambun Utara" />
+    <item
+        android:id="@+id/filter_setu"
+        android:title="Setu" />
+    <item
+        android:id="@+id/filter_tarumajaya"
+        android:title="Tarumajaya" />
+    <item
+        android:id="@+id/filter_mustika_jaya"
+        android:title="Mustika Jaya" />
+    <item
+        android:id="@+id/filter_cikarang_barat"
+        android:title="Cikarang Barat" />
+    <item
+        android:id="@+id/filter_cibitung"
+        android:title="Cibitung" />
+    <item
+        android:id="@+id/filter_sukatani"
+        android:title="Sukatani" />
+</menu>

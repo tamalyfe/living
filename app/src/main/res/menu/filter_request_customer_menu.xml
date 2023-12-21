@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/filter_jakarta"
+        android:title="Jakarta" />
+    <item
+        android:id="@+id/filter_bogor"
+        android:title="Bogor" />
+    <item
+        android:id="@+id/filter_depok"
+        android:title="Depok" />
+    <item
+        android:id="@+id/filter_tangerang"
+        android:title="Tangerang" />
+    <item
+        android:id="@+id/filter_bekasi"
+        android:title="Bekasi" />
+</menu>

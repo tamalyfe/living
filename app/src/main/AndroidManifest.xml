@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.living">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Living">
+        <activity
+            android:name=".userInterface.mainPage.featurePage.FeaturePageActivity"
+            android:exported="true" />
+        <activity
+            android:name=".userInterface.mainPage.forumPage.ForumPageActivity"
+            android:exported="true" />
+        <activity
+            android:name=".userInterface.mainPage.featurePage.matchPage.ReadMatchPageActivity"
+            android:exported="true" />
+        <activity
+            android:name=".userInterface.mainPage.BottomNavigationViewMainPageTeamActivity"
+            android:exported="true" />
+        <activity
+            android:name=".userInterface.mainPage.AuthenticationWelcomePage.AuthenticationWelcomePageActivity"
+            android:exported="true" />
+        <activity
+            android:name=".userInterface.mainPage.authenticationAccountPage.loginPage.LoginPageAgencyActivity"
+            android:exported="true" />
+        <activity
+            android:name=".userInterface.mainPage.authenticationAccountPage.AccountPageTeamFragment"
+            android:exported="true" />
+        <activity
+            android:name=".userInterface.splashScreenPage.SplashScreenPageActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".userInterface.mainPage.BottomNavigationViewMainPageAgencyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".userInterface.mainPage.WishListMainPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".userInterface.mainPage.NotificationMainPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".userInterface.mainPage.featurePage.projectPage.ReadProjectPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".userInterface.mainPage.featurePage.projectPage.DetailProjectPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".userInterface.mainPage.featurePage.projectPage.CreateProjectPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".userInterface.mainPage.featurePage.projectPage.UpdateProjectPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".userInterface.mainPage.featurePage.requestCustomerPage.ReadRequestCustomerPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".userInterface.mainPage.featurePage.requestCustomerPage.DetailRequestCustomerPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".userInterface.mainPage.featurePage.requestCustomerPage.CreateRequestCustomerPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".userInterface.mainPage.featurePage.requestCustomerPage.UpdateRequestCustomerPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".userInterface.mainPage.featurePage.recruitmentTeamPage.ReadRecruitmentTeamPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".userInterface.mainPage.featurePage.recruitmentTeamPage.DetailRecruitmentTeamPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".userInterface.mainPage.featurePage.recruitmentTeamPage.CreateRecruitmentTeamPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".userInterface.mainPage.featurePage.recruitmentTeamPage.UpdateRecruitmentTeamPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".userInterface.mainPage.featurePage.surveySchedulePage.ReadSurveySchedulePage"
+            android:exported="false" />
+        <activity
+            android:name=".userInterface.mainPage.featurePage.surveySchedulePage.CreateSurveySchedulePage"
+            android:exported="false" />
+        <activity
+            android:name=".userInterface.mainPage.featurePage.ActivityRecordPage.ReadActivityRecordPage"
+            android:exported="false" />
+        <activity
+            android:name=".userInterface.mainPage.authenticationAccountPage.AuthenticationAccountPageTeamActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDyRtdMWDTaJnDo06NqydJ1ILTDO6C0qHk" />
+    </application>
+
+</manifest>

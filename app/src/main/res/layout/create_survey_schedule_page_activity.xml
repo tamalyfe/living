@@ -1,0 +1,1116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".userInterface.mainPage.featurePage.surveySchedulePage.CreateSurveySchedulePage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="-22dp"
+        android:background="@color/white">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/t_CreateSurveySchedule"
+            android:layout_width="322dp"
+            android:layout_height="80dp"
+            android:paddingTop="20dp"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginRight="22dp"
+                android:layout_marginLeft="22dp"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="6dp" >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:background="@drawable/insurveyschedule"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginRight="22dp"
+                android:layout_marginLeft="22dp"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="6dp" >
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="31dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/ic_code_dark_green_24dp" />
+                <EditText
+                    android:id="@+id/et_Code"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="32dp"
+                    android:hint="Code"
+                    android:textSize="14dp"
+                    android:fontFamily="sans-serif"
+                    android:padding="12dp"
+                    android:background="@drawable/et_custom_one_white" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginRight="22dp"
+                android:layout_marginLeft="22dp"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="6dp" >
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="6dp"
+                    android:background="@drawable/ic_linear_scale_dark_green_24dp"/>
+                <EditText
+                    android:id="@+id/et_Link"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="32dp"
+                    android:hint="Link"
+                    android:textSize="14dp"
+                    android:fontFamily="sans-serif"
+                    android:padding="12dp"
+                    android:background="@drawable/et_custom_one_white" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginRight="22dp"
+                android:layout_marginLeft="22dp"
+                android:textAlignment="center"
+                android:text="Project (Listing Property)"
+                android:textSize="14dp"
+                android:textColor="@color/black" />
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginRight="22dp"
+                android:layout_marginLeft="22dp"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="6dp" >
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="6dp"
+                    android:background="@drawable/ic_perm_identity_dark_green_24dp"/>
+                <EditText
+                    android:id="@+id/et_NameProjectListingProperty"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="32dp"
+                    android:hint="Name"
+                    android:textSize="14dp"
+                    android:fontFamily="sans-serif"
+                    android:padding="12dp"
+                    android:background="@drawable/et_custom_one_white" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginRight="22dp"
+                android:layout_marginLeft="22dp"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="6dp" >
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="6dp"
+                    android:background="@drawable/ic_location_on_dark_green_24dp"/>
+                <EditText
+                    android:id="@+id/et_LocationProjectListingProperty"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="32dp"
+                    android:hint="Location"
+                    android:textSize="14dp"
+                    android:fontFamily="sans-serif"
+                    android:padding="12dp"
+                    android:background="@drawable/et_custom_one_white" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginRight="22dp"
+                android:layout_marginLeft="22dp"
+                android:textAlignment="center"
+                android:text="Developer"
+                android:textSize="14dp"
+                android:textColor="@color/black" />
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginRight="22dp"
+                android:layout_marginLeft="22dp"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="6dp" >
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="32dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/ic_perm_identity_dark_green_24dp"/>
+                <EditText
+                    android:id="@+id/et_NameDeveloper"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="32dp"
+                    android:hint="Name"
+                    android:textSize="14dp"
+                    android:fontFamily="sans-serif"
+                    android:padding="12dp"
+                    android:background="@drawable/et_custom_one_white" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginRight="22dp"
+                android:layout_marginLeft="22dp"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="6dp" >
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="6dp"
+                    android:background="@drawable/ic_location_on_dark_green_24dp"/>
+                <EditText
+                    android:id="@+id/et_LocationDeveloper"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="32dp"
+                    android:hint="Location"
+                    android:textSize="14dp"
+                    android:fontFamily="sans-serif"
+                    android:padding="12dp"
+                    android:background="@drawable/et_custom_one_white" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginRight="22dp"
+                android:layout_marginLeft="22dp"
+                android:textAlignment="center"
+                android:text="Agency"
+                android:textSize="14dp"
+                android:textColor="@color/black" />
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginRight="22dp"
+                android:layout_marginLeft="22dp"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="6dp" >
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="32dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/ic_perm_identity_dark_green_24dp"/>
+                <EditText
+                    android:id="@+id/et_NameAgency"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="32dp"
+                    android:hint="Name"
+                    android:textSize="14dp"
+                    android:fontFamily="sans-serif"
+                    android:padding="12dp"
+                    android:background="@drawable/et_custom_one_white" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginRight="22dp"
+                android:layout_marginLeft="22dp"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="6dp" >
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="6dp"
+                    android:background="@drawable/ic_location_on_dark_green_24dp"/>
+                <EditText
+                    android:id="@+id/et_LocationAgency"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="32dp"
+                    android:hint="Location"
+                    android:textSize="14dp"
+                    android:fontFamily="sans-serif"
+                    android:padding="12dp"
+                    android:background="@drawable/et_custom_one_white" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginRight="22dp"
+                android:layout_marginLeft="22dp"
+                android:textAlignment="center"
+                android:text="Team"
+                android:textSize="14dp"
+                android:textColor="@color/black" />
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginRight="22dp"
+                android:layout_marginLeft="22dp"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="6dp" >
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="6dp"
+                    android:background="@drawable/ic_perm_identity_dark_green_24dp"/>
+                <EditText
+                    android:id="@+id/et_NameManagerAgency"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="32dp"
+                    android:hint="Name Manager Agency"
+                    android:textSize="14dp"
+                    android:fontFamily="sans-serif"
+                    android:padding="12dp"
+                    android:background="@drawable/et_custom_one_white" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginRight="22dp"
+                android:layout_marginLeft="22dp"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="6dp" >
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="6dp"
+                    android:background="@drawable/ic_contacts_dark_green_24dp"/>
+                <EditText
+                    android:id="@+id/et_ContactEmailSocialMediaManagerAgency"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="32dp"
+                    android:hint="Contact | Email | Social Media Manager Agency"
+                    android:textSize="12dp"
+                    android:fontFamily="sans-serif"
+                    android:padding="12dp"
+                    android:background="@drawable/et_custom_one_white" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginRight="22dp"
+                android:layout_marginLeft="22dp"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="6dp" >
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="6dp"
+                    android:background="@drawable/ic_my_location_dark_green_24dp"/>
+                <EditText
+                    android:id="@+id/et_AddressManagerAgency"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="32dp"
+                    android:hint="Address Manager Agency"
+                    android:textSize="14dp"
+                    android:fontFamily="sans-serif"
+                    android:padding="12dp"
+                    android:background="@drawable/et_custom_one_white" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginRight="22dp"
+                android:layout_marginLeft="22dp"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="6dp" >
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="6dp"
+                    android:background="@drawable/ic_perm_identity_dark_green_24dp"/>
+                <EditText
+                    android:id="@+id/et_NameDigitalMarketing"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="32dp"
+                    android:hint="Name Digital Marketing"
+                    android:textSize="14dp"
+                    android:fontFamily="sans-serif"
+                    android:padding="12dp"
+                    android:background="@drawable/et_custom_one_white" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginRight="22dp"
+                android:layout_marginLeft="22dp"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="6dp" >
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="6dp"
+                    android:background="@drawable/ic_contacts_dark_green_24dp"/>
+                <EditText
+                    android:id="@+id/et_ContactEmailSocialMediaDigitalMarketing"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="32dp"
+                    android:hint="Contact | Email | Social Media Digital Marketing"
+                    android:textSize="12dp"
+                    android:fontFamily="sans-serif"
+                    android:padding="12dp"
+                    android:background="@drawable/et_custom_one_white" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginRight="22dp"
+                android:layout_marginLeft="22dp"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="6dp" >
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="6dp"
+                    android:background="@drawable/ic_my_location_dark_green_24dp"/>
+                <EditText
+                    android:id="@+id/et_AddressDigitalMarketing"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="32dp"
+                    android:hint="Address Digital Marketing"
+                    android:textSize="14dp"
+                    android:fontFamily="sans-serif"
+                    android:padding="12dp"
+                    android:background="@drawable/et_custom_one_white" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginRight="22dp"
+                android:layout_marginLeft="22dp"
+                android:textAlignment="center"
+                android:text="Customer"
+                android:textSize="14dp"
+                android:textColor="@color/black" />
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginRight="22dp"
+                android:layout_marginLeft="22dp"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="6dp" >
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="6dp"
+                    android:background="@drawable/ic_perm_identity_dark_green_24dp"/>
+                <EditText
+                    android:id="@+id/et_NameCustomer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="32dp"
+                    android:hint="Name"
+                    android:textSize="14dp"
+                    android:fontFamily="sans-serif"
+                    android:padding="12dp"
+                    android:background="@drawable/et_custom_one_white" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginRight="22dp"
+                android:layout_marginLeft="22dp"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="6dp" >
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="31dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/ic_contacts_dark_green_24dp"/>
+                <EditText
+                    android:id="@+id/et_ContactEmailSocialMediaCustomer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="32dp"
+                    android:hint="Contact | Email | Social Media"
+                    android:textSize="12dp"
+                    android:fontFamily="sans-serif"
+                    android:padding="12dp"
+                    android:background="@drawable/et_custom_one_white" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginRight="22dp"
+                android:layout_marginLeft="22dp"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="6dp" >
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="6dp"
+                    android:background="@drawable/ic_my_location_dark_green_24dp"/>
+                <EditText
+                    android:id="@+id/et_AddressCustomer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="32dp"
+                    android:hint="Address"
+                    android:textSize="14dp"
+                    android:fontFamily="sans-serif"
+                    android:padding="12dp"
+                    android:background="@drawable/et_custom_one_white" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginRight="22dp"
+                android:layout_marginLeft="22dp"
+                android:textAlignment="center"
+                android:text="Survey Method"
+                android:textSize="14dp"
+                android:textColor="@color/black" />
+            <RadioGroup
+                android:id="@+id/rg_SurveyMethod"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:text="Share"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:text="Bring"/>
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginRight="22dp"
+                android:layout_marginLeft="22dp"
+                android:textAlignment="center"
+                android:text="Survey Schedule"
+                android:textSize="14dp"
+                android:textColor="@color/black" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginRight="22dp"
+                android:layout_marginLeft="22dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginLeft="6dp"
+                    app:cardCornerRadius="6dp"
+                    app:cardElevation="6dp" >
+                    <ImageView
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginLeft="6dp"
+                        android:background="@drawable/ic_access_time_dark_green_24dp" />
+                    <EditText
+                        android:id="@+id/et_TimeSurveySchedule"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="32dp"
+                        android:hint="Time"
+                        android:textSize="14dp"
+                        android:fontFamily="sans-serif"
+                        android:padding="12dp"
+                        android:background="@drawable/et_custom_one_white" />
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginLeft="6dp"
+                    app:cardCornerRadius="6dp"
+                    app:cardElevation="6dp" >
+                    <ImageView
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginLeft="6dp"
+                        android:background="@drawable/ic_today_dark_green_24dp" />
+                    <EditText
+                        android:id="@+id/et_DaySurveySchedule"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="32dp"
+                        android:hint="Day"
+                        android:textSize="14dp"
+                        android:fontFamily="sans-serif"
+                        android:padding="12dp"
+                        android:background="@drawable/et_custom_one_white" />
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginLeft="6dp"
+                    app:cardCornerRadius="6dp"
+                    app:cardElevation="6dp" >
+                    <ImageView
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginLeft="6dp"
+                        android:background="@drawable/ic_date_range_dark_green_24dp" />
+                    <EditText
+                        android:id="@+id/et_DateSurveySchedule"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="32dp"
+                        android:hint="Date"
+                        android:textSize="14dp"
+                        android:fontFamily="sans-serif"
+                        android:padding="12dp"
+                        android:background="@drawable/et_custom_one_white" />
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginRight="22dp"
+                android:layout_marginLeft="22dp"
+                android:textAlignment="center"
+                android:text="Data"
+                android:textSize="14dp"
+                android:textColor="@color/black" />
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginRight="22dp"
+                android:layout_marginLeft="22dp"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="6dp" >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginTop="4dp"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:background="@drawable/insurveyschedule" />
+                    <EditText
+                        android:id="@+id/et_Report"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_marginTop="4dp"
+                        android:background="@drawable/et_custom_rectangle_white"
+                        android:drawablePadding="8dp"
+                        android:gravity="top"
+                        android:scrollbars="none"
+                        android:scrollHorizontally="false"
+                        android:overScrollMode="always"
+                        android:inputType="textMultiLine"
+                        android:singleLine="false"
+                        android:lines="8"
+                        android:minLines="8"
+                        android:maxLines="8"
+                        android:maxLength="255"
+                        android:padding="8dp"
+                        android:hint="Report"
+                        android:fontFamily="sans-serif"
+                        android:textSize="14dp"
+                        android:ems="14" />
+                    <TextView
+                        android:id="@+id/tv_CounterReport"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:gravity="right"
+                        android:text="0 / 255"
+                        android:fontFamily="sans-serif"
+                        android:textSize="12dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginRight="22dp"
+                android:layout_marginLeft="22dp"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="6dp" >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginTop="4dp"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:background="@drawable/insurveyschedule" />
+                    <EditText
+                        android:id="@+id/et_Interest"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_marginTop="4dp"
+                        android:background="@drawable/et_custom_rectangle_white"
+                        android:drawablePadding="8dp"
+                        android:gravity="top"
+                        android:scrollbars="none"
+                        android:scrollHorizontally="false"
+                        android:overScrollMode="always"
+                        android:inputType="textMultiLine"
+                        android:singleLine="false"
+                        android:lines="8"
+                        android:minLines="8"
+                        android:maxLines="8"
+                        android:maxLength="255"
+                        android:padding="8dp"
+                        android:hint="Interest"
+                        android:fontFamily="sans-serif"
+                        android:textSize="14dp"
+                        android:ems="14" />
+                    <TextView
+                        android:id="@+id/tv_CounterInterest"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:gravity="right"
+                        android:text="0 / 255"
+                        android:fontFamily="sans-serif"
+                        android:textSize="12dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginRight="22dp"
+                android:layout_marginLeft="22dp"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="6dp" >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginTop="4dp"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:background="@drawable/insurveyschedule" />
+                    <EditText
+                        android:id="@+id/et_Request"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_marginTop="4dp"
+                        android:background="@drawable/et_custom_rectangle_white"
+                        android:drawablePadding="8dp"
+                        android:gravity="top"
+                        android:scrollbars="none"
+                        android:scrollHorizontally="false"
+                        android:overScrollMode="always"
+                        android:inputType="textMultiLine"
+                        android:singleLine="false"
+                        android:lines="8"
+                        android:minLines="8"
+                        android:maxLines="8"
+                        android:maxLength="255"
+                        android:padding="8dp"
+                        android:hint="Request"
+                        android:fontFamily="sans-serif"
+                        android:textSize="14dp"
+                        android:ems="14" />
+                    <TextView
+                        android:id="@+id/tv_CounterRequest"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:gravity="right"
+                        android:text="0 / 255"
+                        android:fontFamily="sans-serif"
+                        android:textSize="12dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginRight="22dp"
+                android:layout_marginLeft="22dp"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="6dp" >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginTop="4dp"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:background="@drawable/insurveyschedule" />
+                    <EditText
+                        android:id="@+id/et_Reward"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_marginTop="4dp"
+                        android:background="@drawable/et_custom_rectangle_white"
+                        android:drawablePadding="8dp"
+                        android:gravity="top"
+                        android:scrollbars="none"
+                        android:scrollHorizontally="false"
+                        android:overScrollMode="always"
+                        android:inputType="textMultiLine"
+                        android:singleLine="false"
+                        android:lines="8"
+                        android:minLines="8"
+                        android:maxLines="8"
+                        android:maxLength="255"
+                        android:padding="8dp"
+                        android:hint="Reward"
+                        android:fontFamily="sans-serif"
+                        android:textSize="14dp"
+                        android:ems="14" />
+                    <TextView
+                        android:id="@+id/tv_CounterReward"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:gravity="right"
+                        android:text="0 / 255"
+                        android:fontFamily="sans-serif"
+                        android:textSize="12dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginRight="22dp"
+                android:layout_marginLeft="22dp"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="6dp" >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginTop="4dp"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:background="@drawable/insurveyschedule" />
+                    <EditText
+                        android:id="@+id/et_Bonus"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_marginTop="4dp"
+                        android:background="@drawable/et_custom_rectangle_white"
+                        android:drawablePadding="8dp"
+                        android:gravity="top"
+                        android:scrollbars="none"
+                        android:scrollHorizontally="false"
+                        android:overScrollMode="always"
+                        android:inputType="textMultiLine"
+                        android:singleLine="false"
+                        android:lines="8"
+                        android:minLines="8"
+                        android:maxLines="8"
+                        android:maxLength="255"
+                        android:padding="8dp"
+                        android:hint="Bonus"
+                        android:fontFamily="sans-serif"
+                        android:textSize="14dp"
+                        android:ems="14" />
+                    <TextView
+                        android:id="@+id/tv_CounterBonus"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:gravity="right"
+                        android:text="0 / 255"
+                        android:fontFamily="sans-serif"
+                        android:textSize="12dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginRight="22dp"
+                android:layout_marginLeft="22dp"
+                android:textAlignment="center"
+                android:text="Time | Day | Date"
+                android:textSize="14dp"
+                android:textColor="@color/black" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginRight="22dp"
+                android:layout_marginLeft="22dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginLeft="6dp"
+                    app:cardCornerRadius="6dp"
+                    app:cardElevation="6dp" >
+                    <ImageView
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginLeft="6dp"
+                        android:background="@drawable/ic_access_time_dark_green_24dp" />
+                    <EditText
+                        android:id="@+id/et_Time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="32dp"
+                        android:hint="Time"
+                        android:textSize="14dp"
+                        android:fontFamily="sans-serif"
+                        android:padding="12dp"
+                        android:background="@drawable/et_custom_one_white" />
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginLeft="6dp"
+                    app:cardCornerRadius="6dp"
+                    app:cardElevation="6dp" >
+                    <ImageView
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginLeft="6dp"
+                        android:background="@drawable/ic_today_dark_green_24dp" />
+                    <EditText
+                        android:id="@+id/et_Day"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="32dp"
+                        android:hint="Day"
+                        android:textSize="14dp"
+                        android:fontFamily="sans-serif"
+                        android:padding="12dp"
+                        android:background="@drawable/et_custom_one_white" />
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginLeft="6dp"
+                    app:cardCornerRadius="6dp"
+                    app:cardElevation="6dp" >
+                    <ImageView
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginLeft="6dp"
+                        android:background="@drawable/ic_date_range_dark_green_24dp" />
+                    <EditText
+                        android:id="@+id/et_Date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="32dp"
+                        android:hint="Date"
+                        android:textSize="14dp"
+                        android:fontFamily="sans-serif"
+                        android:padding="12dp"
+                        android:background="@drawable/et_custom_one_white" />
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/b_CreateSurveySchedule"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:layout_marginBottom="14dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginTop="14dp"
+                android:background="@drawable/b_custom_one_dark_green"
+                android:fontFamily="sans-serif"
+                android:text="Create Survey Schedule"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

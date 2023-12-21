@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".userInterface.mainPage.featurePage.recruitmentTeamPage.UpdateRecruitmentTeamPageActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="-22dp"
+        android:background="@color/white">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/tUpdateRecruitmentTeamPageActivity"
+            android:layout_width="322dp"
+            android:layout_height="80dp"
+            android:paddingTop="20dp"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginRight="22dp"
+                android:layout_marginLeft="22dp"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="6dp" >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:background="@drawable/ic_baseline_android_24" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginRight="22dp"
+                android:layout_marginLeft="22dp"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="6dp">
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="32dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/ic_code_dark_green_24dp" />
+                <EditText
+                    android:id="@+id/etIdentifierRecruitmentTeam"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="32dp"
+                    android:hint="@string/identifier_recruitment_team"
+                    android:inputType="numberDecimal"
+                    android:textSize="14dp"
+                    android:fontFamily="sans-serif"
+                    android:padding="12dp"
+                    android:background="@drawable/et_custom_one_white" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginRight="22dp"
+                android:layout_marginLeft="22dp"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="6dp" >
+                <ImageView
+                    android:layout_width="26dp"
+                    android:layout_height="28dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/ic_baseline_person_pin_24"/>
+                <EditText
+                    android:id="@+id/etNameTeam"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="32dp"
+                    android:hint="@string/name_team"
+                    android:textSize="14dp"
+                    android:fontFamily="sans-serif"
+                    android:padding="12dp"
+                    android:background="@drawable/et_custom_one_white" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginRight="22dp"
+                android:layout_marginLeft="22dp"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="6dp" >
+                <ImageView
+                    android:layout_width="26dp"
+                    android:layout_height="28dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/ic_baseline_filter_center_focus_24"/>
+                <AutoCompleteTextView
+                    android:id="@+id/actvPostTeam"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="32dp"
+                    android:hint="@string/post_team"
+                    android:textSize="14dp"
+                    android:fontFamily="sans-serif"
+                    android:padding="12dp"
+                    android:background="@drawable/et_custom_one_white" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginRight="22dp"
+                android:layout_marginLeft="22dp"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="6dp" >
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="6dp"
+                    android:background="@drawable/ic_baseline_my_location_24"/>
+                <AutoCompleteTextView
+                    android:id="@+id/actvDomicileTeam"
+                    android:layout_width="340dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="32dp"
+                    android:background="@drawable/et_custom_one_white"
+                    android:fontFamily="sans-serif"
+                    android:hint="@string/domicile_team"
+                    android:padding="12dp"
+                    android:textSize="14dp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginRight="22dp"
+                android:layout_marginLeft="22dp"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="6dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginLeft="6dp"
+                        android:background="@drawable/ic_baseline_join_full_24" />
+                    <Spinner
+                        android:id="@+id/sJobDescription"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        app:cardCornerRadius="6dp"
+                        app:cardElevation="6dp"
+                        android:entries="@array/job_description" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginRight="22dp"
+                android:layout_marginLeft="22dp"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="6dp" >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginTop="4dp"
+                    android:orientation="vertical">
+                    <EditText
+                        android:id="@+id/etExperienceRecruitmentTeam"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_marginTop="4dp"
+                        android:background="@drawable/et_custom_rectangle_white"
+                        android:drawablePadding="8dp"
+                        android:gravity="top"
+                        android:scrollbars="none"
+                        android:scrollHorizontally="false"
+                        android:overScrollMode="always"
+                        android:inputType="textMultiLine"
+                        android:singleLine="false"
+                        android:lines="8"
+                        android:minLines="8"
+                        android:maxLines="8"
+                        android:maxLength="255"
+                        android:padding="8dp"
+                        android:hint="@string/experience_recruitment_team"
+                        android:fontFamily="sans-serif"
+                        android:textSize="14dp"
+                        android:ems="14" />
+                    <TextView
+                        android:id="@+id/tvExperienceRecruitmentTeam"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:gravity="right"
+                        android:text="@string/number_0_160"
+                        android:fontFamily="sans-serif"
+                        android:textSize="12dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginRight="22dp"
+                android:layout_marginLeft="22dp"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="6dp" >
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="6dp"
+                    android:background="@drawable/ic_baseline_document_scanner_24"/>
+                <EditText
+                    android:id="@+id/etCertificate"
+                    android:layout_width="340dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="32dp"
+                    android:background="@drawable/et_custom_one_white"
+                    android:fontFamily="sans-serif"
+                    android:hint="@string/certificate"
+                    android:padding="12dp"
+                    android:textSize="14dp" />
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/bUpdateRecruitmentTeam"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:layout_marginBottom="14dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginTop="14dp"
+                android:background="@drawable/b_custom_one_dark_green"
+                android:fontFamily="sans-serif"
+                android:text="@string/update_recruitment_team"
+                android:textColor="@android:color/white"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,147 @@
+<resources>
+    <string name="app_name">Living</string>
+
+    <string name="identifier_project">Identifier Project</string>
+    <string name="identifier_project_abbreviation">IP</string>
+    <string name="name_project">Name Project</string>
+    <string name="name_project_abbreviation">NP</string>
+    <string name="type_project">Type Project</string>
+    <string name="type_project_abbreviation">TP</string>
+    <string name="access_project">Access Project</string>
+    <string name="status_project">Status Project</string>
+    <string name="status_project_abbreviation">SP</string>
+    <string name="promo">Promo</string>
+    <string name="description_project">Description Project</string>
+    <string name="bedroom">Bedroom</string>
+    <string name="bedroom_abbreviation">B</string>
+    <string name="bathroom">Bathroom</string>
+    <string name="bathroom_abbreviation">B</string>
+    <string name="carport">Carport</string>
+    <string name="carport_abbreviation">C</string>
+    <string name="building_area">Building Area</string>
+    <string name="building_area_abbreviation">BA</string>
+    <string name="surface_area">Surface Area</string>
+    <string name="surface_area_abbreviation">SA</string>
+    <string name="facility">Facility</string>
+    <string name="facility_abbreviation">F</string>
+    <string name="name_developer">Name Developer</string>
+    <string name="contact_developer">Contact Developer</string>
+    <string name="loan_bank">Loan Bank</string>
+    <string name="handover">Handover</string>
+    <string name="math_request_customer">Math Request Customer</string>
+    <string name="create_project">Create Project</string>
+    <string name="read_project">Read Project</string>
+    <string name="update_project">Update Project</string>
+    <string name="amount_project">Amount Project</string>
+    <string name="year">Year</string>
+
+    <string-array name="loan_bank">
+        <item>Bank Mandiri</item>
+        <item>BTN</item>
+        <item>BJB</item>
+    </string-array>
+
+    <string name="identifier_request_customer">Identifier Request Customer</string>
+    <string name="identifier_request_customer_abbreviation">IRC</string>
+    <string name="name_customer">Name Customer</string>
+    <string name="name_customer_abbreviation">NC</string>
+    <string name="contact_customer">Contact Customer</string>
+    <string name="contact_customer_abbreviation">CC</string>
+    <string name="domicile_customer">Domicile Customer</string>
+    <string name="domicile_customer_abbreviation">DC</string>
+    <string name="description_request_customer">Description Request Customer</string>
+    <string name="create_request_customer">Create Request Customer</string>
+    <string name="read_request_customer">Read Request Customer</string>
+    <string name="update_request_customer">Update Request Customer</string>
+    <string name="amount_request_customer">Amount Request Customer</string>
+
+    <string name="identifier_recruitment_team">Identifier Recruitment Team</string>
+    <string name="identifier_recruitment_team_abbreviation">IRT</string>
+    <string name="name_team">Name Team</string>
+    <string name="name_team_abbreviation">NT</string>
+    <string name="post_team">Post Team</string>
+    <string name="post_team_abbreviation">PT</string>
+    <string name="domicile_team">Domicile Team</string>
+    <string name="experience_recruitment_team">Experience Recruitment Team</string>
+    <string name="job_description">Job Description</string>
+    <string name="job_description_abbreviation">JD</string>
+    <string name="job_description_manager_agency">Job Description Manager Agency</string>
+    <string name="job_description_contributor">Job Description Contributor</string>
+    <string name="job_description_surveyor">Job Description Surveyor</string>
+    <string name="job_description_digital_marketing">Job Description Digital Marketing</string>
+    <string name="certificate">Certificate</string>
+    <string name="create_recruitment_team">Create Recruitment Team</string>
+    <string name="read_recruitment_team">Read Recruitment Team</string>
+    <string name="update_recruitment_team">Update Recruitment Team</string>
+    <string name="amount_recruitment_team">Amount Recruitment Team</string>
+
+    <string-array name="job_description">
+        <item>Manager Agency</item>
+        <item>Contributor</item>
+        <item>Surveyor</item>
+        <item>Digital Marketing</item>
+    </string-array>
+
+    <string name="location_project">Location Project</string>
+    <string name="location_project_abbreviation">LP</string>
+    <string name="status_project_ready">Ready</string>
+    <string name="status_project_indent">Indent</string>
+    <string name="price_list_project_cash">Price List Project Cash</string>
+    <string name="price_list_project_cash_abbreviation">PLPC</string>
+    <string name="price_list_project_credit">Price List Project Credit</string>
+    <string name="price_list_project_credit_abbreviation">PLPC</string>
+    <string name="month">/Month</string>
+    <string name="rp">Rp. </string>
+
+    <string name="math_project">Math Project</string>
+    <string name="location">Location</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string name="filter">FILTER</string>
+    <string name="sorting">SORTING</string>
+
+    <string name="number_0_160">0 / 160</string>
+
+    <string name="error">Error</string>
+
+    <string name="WAP"><a href="https://api.whatsapp.com/send?phone=6285348177196">Personal</a></string>
+    <string name="WAB"><a href="https://api.whatsapp.com/send?phone=6282142998991">Business</a></string>
+    <string name="WAG"><a href="https://chat.whatsapp.com/CzJAlW0j9oW9BXjT7rp4H0">Group</a></string>
+
+    <string name="TeP"><a href="https://t.me/RafifWintama">Personal</a></string>
+    <string name="TeB"><a href="">Business</a></string>
+    <string name="TeG"><a href="">Group</a></string>
+
+    <string name="LP"><a href="https://line.me/ti/p/lpaK6bl-UO">Personal</a></string>
+    <string name="LB"><a href="">Business</a></string>
+    <string name="LG"><a href="">Group</a></string>
+
+    <string name="LIP"><a href="">Personal</a></string>
+    <string name="LIB"><a href="">Business</a></string>
+    <string name="LIG"><a href="">Group</a></string>
+
+
+    <string name="YMP"><a href="mailto:rafifwintama01@yahoo.com">Personal</a></string>
+    <string name="YMB"><a href="">Business</a></string>
+
+    <string name="GMP"><a href="mailto:rafifwintama01@gmail.com">Personal</a></string>
+    <string name="GMB"><a href="mailto:tamafamilies@gmail.com">Business</a></string>
+
+
+    <string name="FP"><a href="https://www.facebook.com/rafifwintama.oxnyz.org/">Personal</a></string>
+    <string name="FF"><a href="https://www.facebook.com/tamafamilies">Fanpage</a></string>
+    <string name="FG"><a href="https://www.facebook.com/groups/raffconnectproperty">Group</a></string>
+
+    <string name="IP"><a href="https://www.instagram.com/rafifwintama_/">Personal</a></string>
+    <string name="IB"><a href="https://www.instagram.com/tamafamilies/">Business</a></string>
+
+    <string name="TwP"><a href="https://twitter.com/RafifWintama_">Personal</a></string>
+    <string name="TwB"><a href="">Business</a></string>
+
+    <string name="YTP"><a href="https://www.youtube.com/channel/UCcIsxTuE-9kj-WEEr2iGFqw/featured?view_as=subscriber">Personal</a></string>
+    <string name="YTB"><a href="">Business</a></string>
+
+    <string name="GDMD"><a href="https://drive.google.com/drive/u/1/my-drive">My Drive</a></string>
+    <string name="TC"><a href="https://t.me/joinchat/AAAAAEtT98BuvyJedC6-jA">Channel</a></string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

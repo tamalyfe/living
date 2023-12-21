@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/filter_status_project_ready"
+        android:title="Ready" />
+    <item
+        android:id="@+id/filter_status_project_indent"
+        android:title="Indent" />
+</menu>

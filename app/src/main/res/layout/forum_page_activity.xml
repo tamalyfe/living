@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    tools:context=".userInterface.mainPage.forumPage.ForumPageActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-22dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="@color/white">
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/tForumPage"
+                android:layout_width="288dp"
+                android:layout_height="72dp"
+                android:paddingTop="20dp"
+                android:gravity="center"/>
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fabInformation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="-6dp"
+                android:layout_marginEnd="-6dp"
+                android:layout_marginTop="12dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_baseline_sticky_note_2_24"
+                android:background="@color/darkGreen"
+                app:backgroundTint="@android:color/white"
+                app:fabCustomSize="24dp"/>
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fabNews"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="-6dp"
+                android:layout_marginEnd="-6dp"
+                android:layout_marginTop="12dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_baseline_speaker_notes_24"
+                android:background="@color/darkGreen"
+                app:backgroundTint="@android:color/white"
+                app:fabCustomSize="24dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="@color/white">
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tl_Forum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minWidth="?attr/actionBarSize"
+                android:minHeight="?attr/actionBarSize"
+                android:background="@color/white"
+                app:tabTextColor="@color/gray40"
+                app:tabSelectedTextColor="@color/darkGreen"
+                app:tabIndicatorColor="@color/darkGreen"
+                app:tabTextAppearance="@style/MyCustomTabText"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+                android:text="Link"/>
+                <com.google.android.material.tabs.TabItem
+                    android:id="@+id/ti_Timeline"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Timeline"/>
+                <com.google.android.material.tabs.TabItem
+                    android:id="@+id/ti_Learn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Learn"/>
+                <com.google.android.material.tabs.TabItem
+                    android:id="@+id/ti_HelpSupport"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Help | Support"/>
+            </com.google.android.material.tabs.TabLayout>
+        </LinearLayout>
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/vp_Forum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

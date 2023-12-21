@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/drawable-v24/b_custom_one_dark_green.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/drawable-v24/checkbox_selector.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/drawable-v24/ic_linear_scale_dark_green_24dp.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/drawable/b_custom_one_dark_green.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/drawable/button_rounded_corner_dark_green_full_main.xml" value="0.12447916666666667" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/drawable/checkbox_rounded_corner_black_main.xml" value="0.12447916666666667" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/drawable/circle_background.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/drawable/custom_progress_bar.xml" value="0.12447916666666667" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/drawable/ic_access_time_dark_green_24dp.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/drawable/ic_baseline_android_24.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/drawable/ic_linear_scale_dark_green_24dp.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/drawable/ic_surround_sound_dark_green_24dp.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/account_page_activity.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/account_page_agency_activity.xml" value="0.20878623188405798" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/account_page_agency_fragment.xml" value="0.20878623188405798" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/account_page_fragment.xml" value="0.21557971014492755" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/account_page_team_activity.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/account_page_team_fragment.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/activity_record_page.xml" value="0.2463768115942029" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/authentication_account_page_activity.xml" value="0.21422101449275363" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/authentication_account_page_agency_activity.xml" value="0.20878623188405798" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/authentication_account_page_team_activity.xml" value="0.2033514492753623" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/authentication_welcome_page_activity.xml" value="0.20878623188405798" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/bottom_navigation_view_main_page.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/bottom_navigation_view_main_page_agency_activity.xml" value="0.18614130434782608" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/bottom_navigation_view_main_page_team_activity.xml" value="0.1852355072463768" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/create_project_page_activity.xml" value="0.17391304347826086" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/create_recruitment_team_page_activity.xml" value="0.21014492753623187" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/create_request_customer_page_activity.xml" value="0.2463768115942029" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/create_request_customer_page_fragment.xml" value="0.18614130434782608" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/create_survey_schedule_page_activity.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/detail_project_page_activity.xml" value="0.2" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/detail_project_page_adapter.xml" value="0.1933876811594203" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/detail_recruitment_team_page_activity.xml" value="0.19067028985507245" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/detail_request_customer_page_activity.xml" value="0.264" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/detail_request_customer_page_adapter.xml" value="0.16394927536231885" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/feature_page_activity.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/feature_page_fragment.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/forum_page_activity.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/forum_page_fragment.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/help_support_page_fragment.xml" value="0.2463768115942029" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/home_page_fragment.xml" value="0.13451086956521738" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/home_page_project_new_adapter.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/home_page_project_recommendation_adapter.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/home_page_project_view_adapter.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/learn_page_fragment.xml" value="0.17481884057971014" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/login_page_agency_activity.xml" value="0.2033514492753623" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/login_page_fragment.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/login_page_team_fragment.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/map_page_fragment.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/nav_header_main.xml" value="0.19429347826086957" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/nav_header_main_project.xml" value="0.19791666666666666" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/nav_header_main_request_customer.xml" value="0.19791666666666666" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/notification_main_page_activity.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/project_page_adapter.xml" value="0.1933876811594203" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/read_account_page_activity.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/read_activity_record_page.xml" value="0.13360507246376813" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/read_activity_record_page_activity.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/read_home_page_activity.xml" value="0.13722826086956522" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/read_match_page_activity.xml" value="0.2115036231884058" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/read_match_page_fragment.xml" value="0.18614130434782608" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/read_project_activity.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/read_project_page_activity.xml" value="0.1933876811594203" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/read_project_page_adapter.xml" value="0.30808080808080807" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/read_recruitment_team_page_activity.xml" value="0.23324275362318841" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/read_recruitment_team_page_adapter.xml" value="0.21875" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/read_register_page_team_fragment.xml" value="0.1933876811594203" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/read_request_customer_page_activity.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/read_request_customer_page_adapter.xml" value="0.1933876811594203" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/read_survey_schedule_page_activity.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/recruitment_team_page_adapter.xml" value="0.21014492753623187" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/register_page_fragment.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/register_page_team_fragment.xml" value="0.2028985507246377" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/splash_screen_page_activity.xml" value="0.21557971014492755" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/tab_layout_forum_page.xml" value="0.13360507246376813" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/tab_layout_forum_page_activity.xml" value="0.21557971014492755" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/update_recruitment_team_page_activity.xml" value="0.1716485507246377" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/update_request_customer_page_activity.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/welcome_page_activity.xml" value="0.20878623188405798" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/welcome_page_agency_fragment.xml" value="0.20878623188405798" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/welcome_page_team_fragment.xml" value="0.20878623188405798" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/wish_list_main_page.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/layout/wish_list_main_page_activity.xml" value="0.21557971014492755" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/menu/bnv.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/menu/bottom_navigation_view_main_page_agency_menu.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/menu/bottom_navigation_view_main_page_menu.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/menu/bottom_navigation_view_menu.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/menu/filter_project_menu.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/menu/filter_recruitment_team_menu.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/menu/filter_request_customer_menu.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/menu/list_read_join_position.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/menu/map_menu.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/menu/menu_one.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/menu/menu_search.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/menu/menu_two.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/menu/nav_menu.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/menu/search_project_menu.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/menu/search_recruitment_team_menu.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/menu/sort_project_menu.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/menu/sort_recruitment_team_menu.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS ROG/AndroidStudioProjects/Living/app/src/main/res/menu/sort_request_customer_menu.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
