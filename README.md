@@ -15,8 +15,8 @@ https://drive.google.com/file/d/1yvZV3ruq5RfySNVOgLUonF_RCv8LUvgT/view?usp=shari
 
 # Projects Documents
 
-* Project Brief :
-* Final Presentaion :
+* Project Brief : https://docs.google.com/document/d/1i0TCKnSxXLpmMp1TiTlL8Qe3XwSpBAFg9fd8DwPqj6A/edit?usp=drive_link
+* Project Presentaion : https://youtu.be/AbWsMVfEioM
 
 # Capstone Teams Member
 | Name  | Bangkit ID  | Github Profile | Task |
